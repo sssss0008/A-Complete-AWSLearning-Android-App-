@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing ambient backdrop under cloud -->
+    <path
+        android:pathData="M54,34 C64,34 72,41 74,50 C79,51 83,55 83,61 C83,67 78,72 72,72 L36,72 C29,72 24,67 24,60 C24,54 28,49 34,48 C36,40 44,34 54,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="34"
+                android:endX="83"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#1E293B" android:offset="0.0" />
+                <item android:color="#0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cloud border stroke -->
+    <path
+        android:pathData="M54,34 C64,34 72,41 74,50 C79,51 83,55 83,61 C83,67 78,72 72,72 L36,72 C29,72 24,67 24,60 C24,54 28,49 34,48 C36,40 44,34 54,34 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#00000000" />
+
+    <!-- AWS signature dynamic smile/arrow arc underneath -->
+    <path
+        android:pathData="M34,76 C46,82 62,82 74,76"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FF9900"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M71,73 L75,76.5 L70.5,79"
+        android:strokeWidth="2"
+        android:strokeColor="#FF9900"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Server rack / architecture nodes inside cloud -->
+    <!-- Server shelf 1 -->
+    <path
+        android:pathData="M38,52 L70,52"
+        android:strokeWidth="2"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+    <!-- Server shelf 2 -->
+    <path
+        android:pathData="M38,59 L70,59"
+        android:strokeWidth="2"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+    <!-- Server shelf 3 -->
+    <path
+        android:pathData="M38,66 L70,66"
+        android:strokeWidth="2"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+
+    <!-- Glowing status LEDs -->
+    <path
+        android:pathData="M42,52 A1.5,1.5 0 1,1 42,51.9 Z"
+        android:fillColor="#22C55E" />
+    <path
+        android:pathData="M48,52 A1.5,1.5 0 1,1 48,51.9 Z"
+        android:fillColor="#FF9900" />
+    <path
+        android:pathData="M42,59 A1.5,1.5 0 1,1 42,58.9 Z"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M48,59 A1.5,1.5 0 1,1 48,58.9 Z"
+        android:fillColor="#22C55E" />
+    <path
+        android:pathData="M42,66 A1.5,1.5 0 1,1 42,65.9 Z"
+        android:fillColor="#FF9900" />
+    <path
+        android:pathData="M48,66 A1.5,1.5 0 1,1 48,65.9 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Center compute core chip symbol -->
+    <path
+        android:pathData="M54,42 L59,47 L54,52 L49,47 Z"
+        android:fillColor="#FF9900" />
+    <path
+        android:pathData="M54,38 L54,42"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFB74D"
+        android:strokeLineCap="round" />
+</vector>
